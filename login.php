@@ -1,6 +1,8 @@
 <?php
   if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     //do authentication
+    //TODO: prepared statements because I'm about to go to bed
+    //https://www.php.net/manual/en/mysqli.quickstart.prepared-statements.php
     echo 'PLACEHOLDER: Method was post';
   }
 ?>
