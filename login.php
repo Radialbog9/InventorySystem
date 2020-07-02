@@ -46,7 +46,7 @@
   </div>
 -->
   <button class="btn btn-lg btn-primary btn-block" type="submit">Sign in</button>
-  <p class="mt-5 mb-3 text-muted">&copy; 2019-<?php echo Date("Y");?></p>
+  <p class="mt-5 mb-3 text-muted">&copy; 2019-<?php echo Date("Y");?> Radialbog9</p>
 </form>
 </body>
 </html>
