@@ -6,7 +6,7 @@
         <strong>Error: </strong>
         Cannot connect to database: ('.$database_conn->connect_errno.') '.$database_conn->connect_error.'
       </div>
-      <br>
+      <br><p></p>
     ';
   }
   if($_SERVER['REQUEST_METHOD'] === 'POST') {
