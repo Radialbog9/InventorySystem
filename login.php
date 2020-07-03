@@ -8,7 +8,7 @@
       </div>
     ';
   }
-  if ($_SERVER['REQUEST_METHOD'] === 'POST') {
+  if($_SERVER['REQUEST_METHOD'] == 'POST') {
     //do authentication
     //TODO: prepared statements to authenticate
     //https://www.php.net/manual/en/mysqli.quickstart.prepared-statements.php
