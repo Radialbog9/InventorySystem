@@ -4,13 +4,13 @@
     echo '
       <div class="alert alert-danger">
         <strong>Error: </strong>
-        Cannot connect to database: ('.$database_conn->connect_errno.') '.$database_conn->connect_error'
+        Cannot connect to database: ('.$database_conn->connect_errno.') '.$database_conn->connect_error.'
       </div>
     ';
   }
   if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     //do authentication
-    //TODO: prepared statements because I'm about to go to bed
+    //TODO: prepared statements to authenticate
     //https://www.php.net/manual/en/mysqli.quickstart.prepared-statements.php
     echo 'PLACEHOLDER: Method was post';
   }
