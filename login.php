@@ -1,5 +1,5 @@
 <?php
-  include_once 'private/config.php';
+  include_once 'private/include_this.php';
   if ($database_conn->connect_errno) {
     echo '
       <div class="alert alert-danger">
