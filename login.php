@@ -1,4 +1,13 @@
 <?php
+  include_once 'private/database.php';
+  if ($database_conn->connect_errno) {
+    echo '
+      <div class="alert alert-danger">
+        <strong>Error: </strong>
+        Cannot connect to database: ('.$database_conn->connect_errno.') '.$database_conn->connect_error'
+      </div>
+    ';
+  }
   if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     //do authentication
     //TODO: prepared statements because I'm about to go to bed
