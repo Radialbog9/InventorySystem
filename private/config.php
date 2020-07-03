@@ -8,5 +8,5 @@
     public static $database_name = "wip_inventorysystem";
 
     //DO NOT EDIT BELOW THIS LINE
-    public static $database_conn = new mysqli($database_ip, $database_username, $database_password, $database_name);
+    public $database_conn = new mysqli($database_ip, $database_username, $database_password, $database_name);
   }
